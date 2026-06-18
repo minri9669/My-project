@@ -76,28 +76,28 @@
             // создатьФайлToolStripMenuItem
             // 
             создатьФайлToolStripMenuItem.Name = "создатьФайлToolStripMenuItem";
-            создатьФайлToolStripMenuItem.Size = new Size(224, 26);
+            создатьФайлToolStripMenuItem.Size = new Size(190, 26);
             создатьФайлToolStripMenuItem.Text = "Создать файл";
             создатьФайлToolStripMenuItem.Click += создатьФайлToolStripMenuItem_Click;
             // 
             // открытьФайлToolStripMenuItem
             // 
             открытьФайлToolStripMenuItem.Name = "открытьФайлToolStripMenuItem";
-            открытьФайлToolStripMenuItem.Size = new Size(224, 26);
+            открытьФайлToolStripMenuItem.Size = new Size(190, 26);
             открытьФайлToolStripMenuItem.Text = "Открыть файл";
             открытьФайлToolStripMenuItem.Click += открытьФайлToolStripMenuItem_Click;
             // 
             // изменитьToolStripMenuItem1
             // 
             изменитьToolStripMenuItem1.Name = "изменитьToolStripMenuItem1";
-            изменитьToolStripMenuItem1.Size = new Size(224, 26);
+            изменитьToolStripMenuItem1.Size = new Size(190, 26);
             изменитьToolStripMenuItem1.Text = "Изменить";
             изменитьToolStripMenuItem1.Click += изменитьToolStripMenuItem1_Click;
             // 
             // сохранитьtxtToolStripMenuItem
             // 
             сохранитьtxtToolStripMenuItem.Name = "сохранитьtxtToolStripMenuItem";
-            сохранитьtxtToolStripMenuItem.Size = new Size(224, 26);
+            сохранитьtxtToolStripMenuItem.Size = new Size(190, 26);
             сохранитьtxtToolStripMenuItem.Text = "Сохранить .txt";
             сохранитьtxtToolStripMenuItem.Click += сохранитьtxtToolStripMenuItem_Click;
             // 
@@ -112,28 +112,28 @@
             // копироватьToolStripMenuItem
             // 
             копироватьToolStripMenuItem.Name = "копироватьToolStripMenuItem";
-            копироватьToolStripMenuItem.Size = new Size(224, 26);
+            копироватьToolStripMenuItem.Size = new Size(186, 26);
             копироватьToolStripMenuItem.Text = "Копировать";
             копироватьToolStripMenuItem.Click += копироватьToolStripMenuItem_Click;
             // 
             // вырезатьToolStripMenuItem
             // 
             вырезатьToolStripMenuItem.Name = "вырезатьToolStripMenuItem";
-            вырезатьToolStripMenuItem.Size = new Size(224, 26);
+            вырезатьToolStripMenuItem.Size = new Size(186, 26);
             вырезатьToolStripMenuItem.Text = "Вырезать";
             вырезатьToolStripMenuItem.Click += вырезатьToolStripMenuItem_Click;
             // 
             // вставитьToolStripMenuItem
             // 
             вставитьToolStripMenuItem.Name = "вставитьToolStripMenuItem";
-            вставитьToolStripMenuItem.Size = new Size(224, 26);
+            вставитьToolStripMenuItem.Size = new Size(186, 26);
             вставитьToolStripMenuItem.Text = "Вставить";
             вставитьToolStripMenuItem.Click += вставитьToolStripMenuItem_Click;
             // 
             // выделитьВсеToolStripMenuItem
             // 
             выделитьВсеToolStripMenuItem.Name = "выделитьВсеToolStripMenuItem";
-            выделитьВсеToolStripMenuItem.Size = new Size(224, 26);
+            выделитьВсеToolStripMenuItem.Size = new Size(186, 26);
             выделитьВсеToolStripMenuItem.Text = "Выделить все";
             выделитьВсеToolStripMenuItem.Click += выделитьВсеToolStripMenuItem_Click;
             // 
@@ -147,7 +147,7 @@
             // поискToolStripMenuItem
             // 
             поискToolStripMenuItem.Name = "поискToolStripMenuItem";
-            поискToolStripMenuItem.Size = new Size(224, 26);
+            поискToolStripMenuItem.Size = new Size(155, 26);
             поискToolStripMenuItem.Text = "Поиск";
             поискToolStripMenuItem.Click += поискToolStripMenuItem_Click;
             // 
@@ -155,42 +155,42 @@
             // 
             шрифтToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem2, toolStripMenuItem3, toolStripMenuItem4, toolStripMenuItem5, toolStripMenuItem6 });
             шрифтToolStripMenuItem.Name = "шрифтToolStripMenuItem";
-            шрифтToolStripMenuItem.Size = new Size(224, 26);
+            шрифтToolStripMenuItem.Size = new Size(155, 26);
             шрифтToolStripMenuItem.Text = "Шрифт";
             шрифтToolStripMenuItem.Click += шрифтToolStripMenuItem_Click;
             // 
             // toolStripMenuItem2
             // 
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(224, 26);
+            toolStripMenuItem2.Size = new Size(100, 26);
             toolStripMenuItem2.Text = "1";
             toolStripMenuItem2.Click += toolStripMenuItem2_Click;
             // 
             // toolStripMenuItem3
             // 
             toolStripMenuItem3.Name = "toolStripMenuItem3";
-            toolStripMenuItem3.Size = new Size(224, 26);
+            toolStripMenuItem3.Size = new Size(100, 26);
             toolStripMenuItem3.Text = "2";
             toolStripMenuItem3.Click += toolStripMenuItem3_Click;
             // 
             // toolStripMenuItem4
             // 
             toolStripMenuItem4.Name = "toolStripMenuItem4";
-            toolStripMenuItem4.Size = new Size(224, 26);
+            toolStripMenuItem4.Size = new Size(100, 26);
             toolStripMenuItem4.Text = "3";
             toolStripMenuItem4.Click += toolStripMenuItem4_Click;
             // 
             // toolStripMenuItem5
             // 
             toolStripMenuItem5.Name = "toolStripMenuItem5";
-            toolStripMenuItem5.Size = new Size(224, 26);
+            toolStripMenuItem5.Size = new Size(100, 26);
             toolStripMenuItem5.Text = "4";
             toolStripMenuItem5.Click += toolStripMenuItem5_Click;
             // 
             // toolStripMenuItem6
             // 
             toolStripMenuItem6.Name = "toolStripMenuItem6";
-            toolStripMenuItem6.Size = new Size(224, 26);
+            toolStripMenuItem6.Size = new Size(100, 26);
             toolStripMenuItem6.Text = "5";
             toolStripMenuItem6.Click += toolStripMenuItem6_Click;
             // 
@@ -198,28 +198,28 @@
             // 
             масштабToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { увеличитьToolStripMenuItem, уменьшитьToolStripMenuItem, поУмолчаниюToolStripMenuItem });
             масштабToolStripMenuItem.Name = "масштабToolStripMenuItem";
-            масштабToolStripMenuItem.Size = new Size(224, 26);
+            масштабToolStripMenuItem.Size = new Size(155, 26);
             масштабToolStripMenuItem.Text = "Масштаб";
             масштабToolStripMenuItem.Click += масштабToolStripMenuItem_Click;
             // 
             // увеличитьToolStripMenuItem
             // 
             увеличитьToolStripMenuItem.Name = "увеличитьToolStripMenuItem";
-            увеличитьToolStripMenuItem.Size = new Size(224, 26);
+            увеличитьToolStripMenuItem.Size = new Size(197, 26);
             увеличитьToolStripMenuItem.Text = "Увеличить";
             увеличитьToolStripMenuItem.Click += увеличитьToolStripMenuItem_Click;
             // 
             // уменьшитьToolStripMenuItem
             // 
             уменьшитьToolStripMenuItem.Name = "уменьшитьToolStripMenuItem";
-            уменьшитьToolStripMenuItem.Size = new Size(224, 26);
+            уменьшитьToolStripMenuItem.Size = new Size(197, 26);
             уменьшитьToolStripMenuItem.Text = "Уменьшить";
             уменьшитьToolStripMenuItem.Click += уменьшитьToolStripMenuItem_Click;
             // 
             // поУмолчаниюToolStripMenuItem
             // 
             поУмолчаниюToolStripMenuItem.Name = "поУмолчаниюToolStripMenuItem";
-            поУмолчаниюToolStripMenuItem.Size = new Size(224, 26);
+            поУмолчаниюToolStripMenuItem.Size = new Size(197, 26);
             поУмолчаниюToolStripMenuItem.Text = "По умолчанию";
             поУмолчаниюToolStripMenuItem.Click += поУмолчаниюToolStripMenuItem_Click;
             // 
@@ -231,7 +231,6 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(800, 422);
             textBox1.TabIndex = 1;
-            textBox1.Text = "ы";
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // Form1
