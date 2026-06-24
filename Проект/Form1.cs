@@ -9,7 +9,7 @@ namespace Проект
         public Form1()
         {
             InitializeComponent();
-           
+
         }
 
         private void файлToolStripMenuItem_Click(object sender, EventArgs e)
@@ -91,7 +91,8 @@ namespace Проект
 
         private void поискToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            textBoxSearch.Visible = true;
+            textBoxSearch.Focus();
         }
 
         private void шрифтToolStripMenuItem_Click(object sender, EventArgs e)
@@ -147,6 +148,11 @@ namespace Проект
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBoxSearch.Visible = false;
         }
     }
 }

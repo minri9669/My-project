@@ -52,6 +52,7 @@
             уменьшитьToolStripMenuItem = new ToolStripMenuItem();
             поУмолчаниюToolStripMenuItem = new ToolStripMenuItem();
             textBox1 = new TextBox();
+            textBoxSearch = new TextBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -233,11 +234,20 @@
             textBox1.TabIndex = 1;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
+            // textBoxSearch
+            // 
+            textBoxSearch.Location = new Point(394, 28);
+            textBoxSearch.Name = "textBoxSearch";
+            textBoxSearch.Size = new Size(262, 27);
+            textBoxSearch.TabIndex = 2;
+            textBoxSearch.TextChanged += textBox2_TextChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBoxSearch);
             Controls.Add(textBox1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
@@ -275,5 +285,6 @@
         private ToolStripMenuItem уменьшитьToolStripMenuItem;
         private ToolStripMenuItem поУмолчаниюToolStripMenuItem;
         private TextBox textBox1;
+        private TextBox textBoxSearch;
     }
 }
